@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer>
           <div>
-            
+            <p>United States</p>
           </div>
         </footer>
     )
