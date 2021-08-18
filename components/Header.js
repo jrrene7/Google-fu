@@ -23,7 +23,8 @@ function Header() {
           <div className="flex w-full p-6 items-center">
             <Image
             src='https://www.google.co.uk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
-           height={40}
+            alt="profile pic"
+            height={40}
             width={120}
             onClick={() => router.push("/")}
             className="cursor-pointer" />
