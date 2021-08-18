@@ -27,7 +27,7 @@ function Search({results}) {
 export default Search;
 
 export async function getServerSideProps(context) {
-  const useDummyData = true;
+  const useDummyData = false;
   // Pagination
   const startIndex = context.query.start || "0";
 
